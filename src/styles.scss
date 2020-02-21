@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    // height: 100%;
+    font-family: RubickLight;
+    background-image: url('./assets/imgs/background.jpg');
+    margin: 0 !important;
+}
+
+
+@font-face {
+    font-family: RubickLight;
+    src: url(../src/assets/fonts//Rubik/Rubik-Light.ttf);
+}
+
+body::-webkit-scrollbar {
+    width: 0.4em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color:  #344958;
+    outline: 1px solid  #344958;
+    border-radius: 3px;
+  }
+

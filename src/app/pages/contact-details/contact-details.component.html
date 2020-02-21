@@ -1,1 +1,19 @@
-<p>contact-details works!</p>
+<div class="contact-details-container">
+<div>
+    <img src="https://i.imgur.com/ScW5VJl.png" class="contact-icon" />
+</div>
+<div class="details-buttons-container">
+    <button (click)="goBack()" class="details-btn">Back</button>
+    <button (click)="editContact()" class="details-btn">
+        Edit</button>
+</div>
+<h1>{{contact.name}}</h1>
+<div class="contact-details">
+    <div>{{contact.phone}}</div>
+    <div>{{contact.email}}</div>
+</div>
+<section class="user-transfer">
+    <app-bitcoin-transfer [contact]="contact"></app-bitcoin-transfer>
+    <app-transfer-list [transfers]="transfers"></app-transfer-list>
+</section>
+</div>

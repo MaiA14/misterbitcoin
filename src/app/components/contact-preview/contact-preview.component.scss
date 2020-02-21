@@ -1,0 +1,30 @@
+.preview-container{
+    border-bottom: 1px solid #344958;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.preview-container:hover{
+    color:#ed4d6e;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+}
+
+a:hover{
+    color:#ed4d6e;
+}
+
+.contact-icon{
+    width: 50px;
+    margin-right: 14px;
+}
+
+.contact-name{
+    padding-bottom: 3px;
+}

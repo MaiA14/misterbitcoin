@@ -1,1 +1,27 @@
-<p>contact-edit works!</p>
+<div class="edit-contact-container">
+    <div>
+        <div>
+            <label for="name">Name:</label>
+            <input name="name" type="text" value={{editableContact.name}} 
+            (keyup)="inputChange($event)">
+        </div>
+        <div>
+            <label for="email">email:</label>
+            <input name="email" type="text" value={{editableContact.email}} 
+            (keyup)="inputChange($event)">
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input name="phone" type="text" value={{editableContact.phone}} 
+            (keyup)="inputChange($event)">
+        </div>
+    </div>
+    <div class="edit-contact-buttons-container">
+        <div (click)="goBack()" 
+        class="edit-contact-btn">Back</div>
+        <div (click)="saveContact()" 
+         class="edit-contact-btn">Save</div>
+         <button class="edit-contact-btn" (click)="deleteContact()">
+            Delete</button>
+    </div>
+</div>

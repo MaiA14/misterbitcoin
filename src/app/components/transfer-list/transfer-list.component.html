@@ -1,1 +1,18 @@
-<p>transfer-list works!</p>
+<h3>Transfer history:</h3>
+<ul class="clean-list">
+<li *ngFor="let transfer of transfers | slice:0:3;"
+class="transfer-container">
+    <app-transfer-preview [transfer]="transfer"></app-transfer-preview>
+</li>
+</ul>
+
+<!-- <div class="transaction-list-container" *ngIf="transfers.length > 0">
+    <div class="transaction-title-container">
+        <p>{{title}}:</p>
+    </div>
+    <div class="transaction-preview-container" *ngFor="let transfer of transfers; let i = index">
+        <app-transfer-preview *ngIf="i<numOfTransactionToDisplay" [transfer]="transfer">
+
+        </app-transfer-preview>
+    </div>
+</div> -->

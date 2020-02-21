@@ -1,1 +1,3 @@
-<p>contact-list works!</p>
+<div *ngFor="let contact of contacts">
+    <app-contact-preview [contact]="contact"></app-contact-preview>
+</div>

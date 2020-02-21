@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-contact-filter',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactFilterComponent implements OnInit {
 
-  constructor() { }
+  @Output() onFilter = new EventEmitter<string>();
 
-  ngOnInit(): void {
-  }
+  constructor() {}
 
+  ngOnInit(): void {}
+
+  onFilterChange(filterBy){
+    this.onFilter.emit(filterBy);
+  } 
 }

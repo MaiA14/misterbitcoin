@@ -1,1 +1,11 @@
-<p>bitcoin-transfer works!</p>
+<div class="transfers-container">
+    <p class="transfer-title">Transfer Bit to {{contact.name}}</p>
+    <div class="transfers-input-container">
+        <form class="transfer-form" (ngSubmit)="onSubmit()">
+            <!-- <label for="transfer">Amount:</label> -->
+            <input type="number" name="transfer" class="input-container"
+             [(ngModel)]="amount">
+        </form>
+        <button class="transfers-btn" (click)="onSubmit()">Transfer</button>
+    </div>
+</div>

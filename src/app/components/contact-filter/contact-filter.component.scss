@@ -1,0 +1,19 @@
+input{
+    margin-left: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    background: url('https://res.cloudinary.com/dtwqtpteb/image/upload/v1581581729/ze7fpdzae4blvavgyomg.png')no-repeat 95%;
+    color: white;
+    font-size: 18px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-family: RubickLight;
+  }
+
+
+

@@ -11,13 +11,13 @@ import CONTACTS from '../mock/contacts'
 export class ContactService {
 
   //mock the server - make it a private variable
-  _contacts: ContactModel[] = CONTACTS;
+  private _contacts: ContactModel[] = CONTACTS;
 
   //private behaviorSubject array of contacts:
-  _contacts$ = new BehaviorSubject<Array<ContactModel>>([]);
+  private _contacts$ = new BehaviorSubject<Array<ContactModel>>([]);
 
   //public observable of the private var above
-  contacts$ = this._contacts$.asObservable();
+  public contacts$ = this._contacts$.asObservable();
 
   constructor() {}
 

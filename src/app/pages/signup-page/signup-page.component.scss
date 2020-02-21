@@ -1,0 +1,61 @@
+.signup-container{
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-btn{
+    font-family: RubickLight;
+    background-color: #ed4d6e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    :focus{
+        outline: none;
+    }
+    color: white;
+    font-size: 16px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.signup-btn:hover{
+        opacity: 0.8; 
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-left: 20px;
+    outline: none
+}
+
+input[type=text]{
+    width: 170px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ed4d6e;
+    border-right-style: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.signup-app-logo{
+    margin-top: 20px;
+    width: 160px;
+}

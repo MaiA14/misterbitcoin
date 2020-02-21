@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import ContactModel from 'src/app/models/contact.model';
+import { UserService } from 'src/app/services/user-service/user.service';
 
 @Component({
   selector: 'app-bitcoin-transfer',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BitcoinTransferComponent implements OnInit {
 
-  constructor() { }
+  @Input() contact: ContactModel;
+  amount: number;
 
-  ngOnInit(): void {
+  constructor(private userService: UserService) {}
+
+  ngOnInit(): void {}
+
+  onSubmit(){
+    this.userService.addTransfer(this.contact, this.amount)
   }
 
 }

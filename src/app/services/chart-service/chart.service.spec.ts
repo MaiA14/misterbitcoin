@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ChartServiceService } from './chart-service.service';
+import { ChartService } from './chart.service';
 
 describe('ChartServiceService', () => {
-  let service: ChartServiceService;
+  let service: ChartService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ChartServiceService);
+    service = TestBed.inject(ChartService);
   });
 
   it('should be created', () => {

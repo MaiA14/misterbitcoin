@@ -1,1 +1,12 @@
-<p>contact-page works!</p>
+<router-outlet></router-outlet>
+<app-contact-filter class="filter-container" (onFilter)="onFilter($event)">
+</app-contact-filter>
+<div class="contact-page-container">
+    <div class="list-container">
+    <app-contact-list [contacts]="contacts$|async"></app-contact-list>
+</div>
+    <div class="add-contact-container">
+        <button class="add-contact-btn" routerLink="/contact/edit">+</button>
+    </div>
+</div>
+

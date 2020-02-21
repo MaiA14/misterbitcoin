@@ -1,1 +1,14 @@
-<p>home-page works!</p>
+<div class="homepage-container">
+        <section class="user-details-container">
+            <h1>Welcome to Misterbitcoin {{user.name}} !</h1>
+            <label>
+                Amount: {{user.amount}}
+            </label>
+            <label>
+                Value: {{amount$ | async}}
+            </label>
+            <div><img src="https://res.cloudinary.com/dtwqtpteb/image/upload/v1581626279/hqbzcgjvep0fhdjmcrq3.png"
+            class="app-logo" /></div>
+        </section>
+        <app-transfer-list [transfers]="user.transfers"></app-transfer-list>
+    </div>

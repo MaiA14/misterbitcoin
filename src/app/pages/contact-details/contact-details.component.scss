@@ -1,0 +1,61 @@
+.contact-details-container{
+    text-align: center;
+    align-items: 'center';
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contact-icon{
+    margin-top: 20px;
+    width: 100px;
+}
+
+h1{
+    color:#ed4d6e;
+    font-weight: normal;
+}
+
+.contact-details{
+    color:white;
+}
+
+.user-transfer{
+    color: white;
+    align-content: l;
+}
+
+.details-btn{
+    font-family: RubickLight;
+    background-color: #ed4d6e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    :focus{
+        outline: none;
+    }
+    color: white;
+    font-size: 16px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.3s;
+    margin-left: 7px;
+}
+
+.details-btn:hover{
+        opacity: 0.8; 
+}
+
+.details-buttons-container{
+    align-items: 'center';
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+

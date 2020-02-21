@@ -1,1 +1,11 @@
-<p>contact-preview works!</p>
+
+    <div class="preview-container" (click)="contactClick()">
+    <div>
+        <img src="https://i.imgur.com/ScW5VJl.png" 
+        class="contact-icon" />
+    </div>
+    <div class="contact-preview-details">
+        <div class="contact-name">{{contact.name}}</div>
+        <div class="contact-phone">{{contact.phone}}</div>
+    </div>
+</div>

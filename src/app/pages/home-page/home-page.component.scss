@@ -1,0 +1,51 @@
+.homepage-container{
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bitcoin-rate{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.app-logo{
+    width: 230px;
+    height: 250px;
+}
+
+.signup-app-logo{
+    margin-top: 20px;
+    width: 160px;
+}
+
+.signup-btn{
+    background-color: #ed4d6e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    :focus{
+        outline: none;
+    }
+    color: white;
+    font-size: 16px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.signup-btn:hover{
+        opacity: 0.8; 
+}

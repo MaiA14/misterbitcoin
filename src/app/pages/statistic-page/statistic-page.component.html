@@ -1,1 +1,12 @@
-<p>statistic-page works!</p>
+<div class="statics-container">
+    <h3>Market Price (USD)</h3>
+    <p>Average USD market price across major bitcoin exchanges.</p>
+    <div class="chartStyle">
+        <chart [chart]="marketPriceChart" class="chart"></chart>
+    </div>
+    <h3>Confirmed Transactions Per Day</h3>
+    <p>The number of daily confirmed transactions.</p>
+        <div class="chartStyle">
+            <chart [chart]="dailyTransChart" class="chart"></chart>
+        </div>
+    </div>
