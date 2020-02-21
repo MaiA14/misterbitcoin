@@ -1,5 +1,6 @@
-<div>
+<div *ngIf="transfer.amount >0 else elseBlock">
     <div>Transfered To: {{transfer.to}}</div>
     <div>At: {{date}}</div>
-   <div>Amount: {{transfer.amount}}</div>
-</div>
+Amount: {{transfer.amount}}</div>
+
+<ng-template #elseBlock>Can't transfer negative amount of money</ng-template>

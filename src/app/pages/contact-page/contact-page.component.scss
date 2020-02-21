@@ -22,6 +22,8 @@
 
 .contact-page-container{
     display: flex;
+    display: flex;
+    justify-content: center;
 }
 
 .list-container{
@@ -33,4 +35,9 @@
 
 .add-contact-container{
     width: 60px;
+}
+
+.filter-container{
+    justify-content: center;
+    display: flex;
 }
