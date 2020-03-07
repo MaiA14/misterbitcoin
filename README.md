@@ -32,9 +32,7 @@ I can alson edit contact details, if in mistake I forgot a char in the email add
 
 Now, let's transfer some bitcoin to my friend Lihi:
 
-![Image of misterbitcoin](
-
-https://res.cloudinary.com/dtwqtpteb/image/upload/v1583357982/dnmttpxbatwwxclapamz.png)
+![Image of misterbitcoin](https://res.cloudinary.com/dtwqtpteb/image/upload/v1583357982/dnmttpxbatwwxclapamz.png)
 
 As you can see, in Lihi profile, there is new trasnfer by me. In my homepage, the amount of bitcoins also updated according to this transfer.
 
