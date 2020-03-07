@@ -1,6 +1,6 @@
 # Misterbitcoin
 
-A digital wallet for holding bitcoins and sending them t contacts, developed in Angular 9.
+A digital wallet for holding bitcoins and sending them to contacts, developed in Angular 9.
 
 ![Image of misterbitcoin](https://res.cloudinary.com/dtwqtpteb/image/upload/v1583356877/fkaodetf4wuunr334lx1.png)
 
