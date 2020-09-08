@@ -38,9 +38,13 @@ As you can see, in Lihi profile, there is new trasnfer by me. In my homepage, th
 
 ![Image of misterbitcoin](https://res.cloudinary.com/dtwqtpteb/image/upload/v1583358095/xehbv4o9b6hn5pygx3dx.png)
 
+
 The app supports various mobile and browsers.
 
-![Image of misterbitcoin](https://res.cloudinary.com/dtwqtpteb/image/upload/v1583358224/wpercyzrljhc5eddgcrc.png)
+
+![Image of misterbitcoin](https://i.ibb.co/5GDhSGY/New-Project-9.png)
+
+![Image of misterbitcoin](https://i.ibb.co/m9DQYVQ/New-Project-10.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
