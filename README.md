@@ -1,4 +1,4 @@
-# Misterbitcoin
+# Digital-Bitcoin_Wallet
 
 A digital wallet for holding bitcoins and sending them to contacts, developed in Angular 9. Including route guards, directives, forms and google charts.
 
